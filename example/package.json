@@ -1,0 +1,33 @@
+{
+  "name": "angular-unit-testing",
+  "version": "1.0.0",
+  "description": "Example project for AngularJS unit testing.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Puigcerber/angular-unit-testing"
+  },
+  "dependencies": {
+    "angular": "^1.5.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.7.5",
+    "jasmine-core": "^2.99.1",
+    "jshint": "^2.7.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^0.3.8",
+    "karma-ng-html2js-preprocessor": "^0.1.2"
+  },
+  "scripts": {
+    "lint": "jshint src; true",
+    "test": "karma start",
+    "pretest": "npm run lint"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Pablo Villoslada Puigcerber <pablo85@gmail.com> (http://pablovilloslada.com/)",
+  "license": "MIT"
+}
